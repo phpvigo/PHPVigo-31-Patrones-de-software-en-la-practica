@@ -1,0 +1,15 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+no_specification:
+  path:  /no-specification
+  controller: App\Controller\CardPaymentController::withoutSpecification
+
+with_specification:
+  path:  /with-specification
+  controller: App\Controller\CardPaymentController::withSpecification
+
+combined_specification:
+  path:  /combined-specification
+  controller: App\Controller\CardPaymentController::withCombinedSpecification
