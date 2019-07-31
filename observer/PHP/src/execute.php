@@ -7,7 +7,7 @@ use NumberConverter\Observer\BinaryObserver;
 use NumberConverter\Observer\OctalObserver;
 use NumberConverter\Observer\HexObserver;
 
-require __DIR__.'/../../vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 
 $numberSubject = new NumberSubject();
 new BinaryObserver($numberSubject);
