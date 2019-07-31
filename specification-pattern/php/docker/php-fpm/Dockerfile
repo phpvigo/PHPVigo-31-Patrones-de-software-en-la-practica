@@ -1,4 +1,4 @@
-FROM rolandocaldas/php:7.1-apache-dev
+FROM rolandocaldas/php:7.1-dev
 
 ARG LOCAL_UID
 ARG LOCAL_GID
